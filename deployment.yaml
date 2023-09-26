@@ -18,7 +18,7 @@ spec:
         app: flaskdemo
     spec:
       containers:
-      - image: nexus.bahram.local:5000/python-app/test:latest
+      - image: nexus.bahram.local:5000/python-app/test:15
         name: flaskdemo
         resources: {}
 status: {}
